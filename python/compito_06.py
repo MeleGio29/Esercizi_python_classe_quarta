@@ -1,2 +1,2 @@
-stringa = input("Inserisci una parola: ");
-print(stringa [::2]);
+stringa = input("Inserisci una parola: ")
+print(stringa [::2])
