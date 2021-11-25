@@ -11,9 +11,12 @@ def ePrimo(num):
     else:
        return False
 
-num=int(input("inserisci un numero : "))
+conta,lista=0,[]
 
-if((ePrimo(num))):
-    print("E' primo ")
-else :
-    print("Non è primo")
+for num in range(2,1000):
+    if((ePrimo(num))):
+        lista.append(num)
+        conta+=1
+
+print(lista)
+print(f"Inumeri primi minori di 1000 sono : {conta}")

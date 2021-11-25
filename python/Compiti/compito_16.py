@@ -1,12 +1,12 @@
-lista = [0, 1, 2, 3, 5, 6, 7, 8]
-max = lista[1]
-min = lista[1]
+lista=[1,2,3,4,5,6,7,8]
 
-for numeri in lista:
-    if(max < lista[numeri]):
-        max = numeri
-    if(min > lista[numeri]):
-        min = numeri
+max,min=lista[0],lista[0]
+
+for elemento in lista :
+    if(min>elemento):
+        min=elemento
+    elif(max<elemento):
+        max=elemento
     
-
-print(f"Il numero più grande è: {max} mentre il minore è: {min}")
+print (lista)  
+print(f"L'elemento maggiore è {max} l'elemento minore è {min}")
