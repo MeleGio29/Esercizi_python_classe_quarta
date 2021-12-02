@@ -2,7 +2,6 @@ import turtle
 snow = turtle.Turtle()
 finestra = turtle.Screen()
 f = open("./testo.txt", "r")
-
 righe = f.readlines()
 f.close()
 
