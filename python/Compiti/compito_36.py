@@ -1,7 +1,7 @@
 import itertools
 
-lista = [3, 2, 1]
+lista1 = [10, 20, 30]
 
-listaP = list(itertools.permutations(lista))
+lista2 = list(itertools.permutations(lista1))
 
-print(listaP)
+print(lista2)
